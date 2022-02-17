@@ -1,0 +1,80 @@
+######################################################
+#               People Collections                   #
+######################################################
+templates:
+  Person:
+    smart_filter:
+      any:
+        actor: tmdb
+        sort_by: random
+      validate: false
+    tmdb_person: <<person>>
+    sort_title: +4_<<collection_name>>
+collections:
+  Peter Krause:
+    template: {name: Person, person: 23119}
+  Angela Bassett:
+    template: {name: Person, person: 9780}
+  Oliver Stark:
+    template: {name: Person, person: 1283871}
+  Kenneth Choi:
+    template: {name: Person, person: 41561}
+  Rockmond Dunbar:
+    template: {name: Person, person: 17345}
+  Rob Lowe:
+    template: {name: Person, person: 2879}
+  Anthony Hopkins:
+    template: {name: Person, person: 4173}
+  Jim Parrack:
+    template: {name: Person, person: 83968}
+ Gina Torres:
+    template: {name: Person, person: 9576}
+  Will Yun Lee:
+    template: {name: Person, person: 10884}
+  Dichen Lachman:
+    template: {name: Person, person: 94797}
+  Ato Essandoh:
+    template: {name: Person, person: 5377}
+  Robert Forster:
+    template: {name: Person, person: 5694}
+  Kerry Bishé:
+    template: {name: Person, person: 58356}
+  Ricky Whittle:
+    template: {name: Person, person: 195675}
+  Bruce Willis:
+    template: {name: Person, person: 62}
+  Ian McShane:
+    template: {name: Person, person: 6972}
+  Carrie Fisher:
+    template: {name: Person, person: 4}
+  Cate Blanchett:
+    template: {name: Person, person: 112}
+  Catherine Zeta-Jones:
+    template: {name: Person, person: 1922}
+  Channing Tatum:
+    template: {name: Person, person: 38673}
+  Charlie Chaplin:
+    template: {name: Person, person: 13848}
+  Charlize Theron:
+    template: {name: Person, person: 6885}
+  Christian Bale:
+    template: {name: Person, person: 3894}
+  Chris Evans:
+    template: {name: Person, person: 16828}
+  Chris Hemsworth:
+    template: {name: Person, person: 74568}
+  Chris Pratt:
+    template: {name: Person, person: 73457}
+  Chris Rock:
+    template: {name: Person, person: 2632}
+  Christopher Nolan:
+    template: {name: Person, person: 525}
+  Emily Browning:
+    template: {name: Person, person: 70456}
+  Orlando Jones:
+    template: {name: Person, person: 18270}
+  Clint Eastwood:
+    template: {name: Person, person: 190}
+  Sarah Jessica Parker:
+    template: {name: Person, person: 520}
+  
